@@ -31,6 +31,8 @@ public class Xpaths {
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//span[normalize-space()='Time: ending soonest']")).click();
+		
+		driver.close();
 	}
 
 }

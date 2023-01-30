@@ -32,7 +32,7 @@ public class Xpaths {
 		
 		driver.findElement(By.xpath("//span[normalize-space()='Time: ending soonest']")).click();
 		
-		//driver.close();
+		driver.close();
 	}
 
 }
